@@ -13,8 +13,6 @@
         <h2>Income Expense Tracker</h2>
         <h4>Your Current Balance</h4>
         <h1 id="balance">₹ 0.00</h1>
-        
-          
         <div class="inc-exp-container">
           <div class="inc">
             <h4>Income</h4>
@@ -25,14 +23,15 @@
             <p id="exp-amt" class="amt minus">₹ 0.00</p>
           </div>
         </div>
-       
         <form action="#" id="form">
           <div class="form-control">
-             <label for="category">Category</label>&nbsp;&nbsp;&nbsp;
-        <select name="category" id="category " style="height: 41.6px; width: 300px;">
-          <option value="income">Income</option>
-          <option value="expense">Expense</option>
-        </select>
+            <label for="category">Category</label>
+            <select name="category" id="category" style="height: 41.6px; width: 300px; margin-left: 15px;">
+              <option value="income">Income</option>
+              <option value="expense">Expense</option>
+            </select>
+          </div> 
+          <div class="form-control">
             <label for="desc">Description</label>
             <input type="text" name="desc" id="desc" placeholder="Enter Description" />
           </div>
@@ -41,9 +40,6 @@
             <label for="amount">Amount</label>
             <input type="number" name="amount" id="amount" placeholder="Enter Amount" />
           </div>
-          <div class="form-control">
-            
-          </div>          
           <button class="btn" type="submit">Add Transaction</button>
         </form>
       </div>
