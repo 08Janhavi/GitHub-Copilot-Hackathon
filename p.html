@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="p.css" />
-  </head>
-  <body>
+<html>
+<head>
+  <title>Finance_Expense_Tracker</title>
+  <link rel="stylesheet" href="t.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#track">Track</a></li>
+      <li><a href="#working">Working</a></li>
+    </ul>
+    <img src="logo.png" alt="Logo" class="logo">
+  </div>
+
+  <!-- Slideshow -->
+  <section id="about">
+
+    <div class="slideshow-container">
+      <img src="name.png" alt="Slideshow Image 1">
+      <img src="quote.png" alt="Slideshow Image 2">
+      <img src="webstru.png" alt="Slideshow Image 3">
+    </div>
+  </section>
+
+  <!-- Finance Tracker -->
+  <section id="track">
+
+    <div class="finance-tracker">
+      <h2>Finance Tracker</h2>
+      <!-- Add your finance tracker code here -->
+    </div>
     <div class="container">
       <div class="ledger">
         <h2>Income Expense Tracker</h2>
@@ -35,7 +59,7 @@
             <label for="desc">Description</label>
             <input type="text" name="desc" id="desc" placeholder="Enter Description" />
           </div>
-
+  
           <div class="form-control">
             <label for="amount">Amount</label>
             <input type="number" name="amount" id="amount" placeholder="Enter Amount" />
@@ -71,6 +95,53 @@
         </ul>
       </div>
     </div>
-    <script src="p.js"></script>
-  </body>
+  </section>
+  <section id="working">
+
+    <div class="Work">
+      <p>
+        A finance expense tracker is a powerful tool designed to help individuals and businesses keep track 
+        of their financial transactions and expenses. With the rapid advancement of technology, expense trackers 
+        have become increasingly sophisticated, providing real-time data and comprehensive reports for better 
+        financial management. These trackers allow users to input their expenses, categorize them, and analyze 
+        spending patterns, enabling them to make informed decisions about their finances. By tracking expenses, 
+        individuals can gain a clear understanding of where their money is going, identify areas for potential 
+        cost savings, and create effective budgets. Furthermore, finance expense trackers often offer features 
+        such as automatic expense syncing, receipt scanning, and integration with banking and credit card accounts,
+         making the process more efficient and convenient. Overall, a finance expense tracker is an invaluable 
+         tool for anyone seeking to maintain control over their financial health and achieve their monetary goals.
+      </p>
+      </div>
+  </section>
+  <footer class="footer">
+    <p>&copy; 2023 Your Website. All rights reserved. </p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/yourprofile"><img src="facebook.png" alt="Facebook"></a>
+      <a href="https://www.twitter.com/yourprofile"><img src="twitter.png" alt="Twitter"></a>
+      <a href="https://www.instagram.com/yourprofile"><img src="instagram.png" alt="Instagram"></a>
+      <a href="https://api.whatsapp.com/send?phone=123456789"><img src="whatsapp.png" alt="WhatsApp"></a>
+    </div>
+  </footer>
+   
+  <script>
+    // JavaScript code for slideshow (optional)
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("slideshow-container")[0].getElementsByTagName("img");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change slide every 2 seconds
+    }
+  </script>
+  <script src="p.js"></script>
+</body>
 </html>
