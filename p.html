@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Finance_Expense_Tracker</title>
-  <link rel="stylesheet" href="t.css" />
+  <title>finTrack</title>
+  <link rel="stylesheet" href="p.css" />
 </head>
+
 <body>
   <!-- Navbar -->
+
   <div class="navbar">
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#track">Track</a></li>
       <li><a href="#working">Working</a></li>
     </ul>
-    <img src="logo.png" alt="Logo" class="logo">
+    <img src="logo2.png" alt="Logo" class="logo">
   </div>
 
   <!-- Slideshow -->
@@ -54,12 +57,12 @@
               <option value="income">Income</option>
               <option value="expense">Expense</option>
             </select>
-          </div> 
+          </div>
           <div class="form-control">
             <label for="desc">Description</label>
             <input type="text" name="desc" id="desc" placeholder="Enter Description" />
           </div>
-  
+
           <div class="form-control">
             <label for="amount">Amount</label>
             <input type="number" name="amount" id="amount" placeholder="Enter Amount" />
@@ -91,30 +94,91 @@
             <button class="btn-del">x</button>
             <button class="btn-edit">Edit</button>
           </li>
-          
+
         </ul>
       </div>
+      <div class="spending-pattern">
+        <h3>Spending Pattern</h3>
+        <canvas id="spending-chart"></canvas>
+       
+        <a onclick="location.reload();">GetChart</a>
+      </div>
     </div>
+   
+<div class="container1">
+  <div class="receipt-scanner">
+    <h3>Receipt Scanner</h3>
+    <input type="file" id="receipt-input" accept="image/*">
+      <div class="receipt-preview">
+      <button id="scan-button">Scan Receipt</button>
+      <div id="scanned-result">
+      <h4>Scanned Result:</h4>
+      <p id="scanned-text"></p>
+      </div>
+    </div>
+   </div>
+  
+  </div>
+  <div class="container2">
+  
+  <div class="account-form">
+    <h3>Add Banking or Credit Card Account</h3>
+    <form id="account-form">
+      <div class="form-control">
+        <label for="account-type">Account Type</label>
+        <select name="account-type" id="account-type">
+          <option value="banking">Banking</option>
+          <option value="credit-card">Credit Card</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <label for="account-number">Account Number</label>
+        <input type="text" name="account-number" id="account-number" required>
+      </div>
+      <div class="form-control">
+        <label for="account-name">Account Name</label>
+        <input type="text" name="account-name" id="account-name" required>
+      </div>
+      <div class="form-control">
+        <label for="account-bank">Bank Name</label>
+        <input type="text" name="account-bank" id="account-bank" required>
+      </div>
+      <button type="submit">Save Account</button>
+    </form>
+  </div>
+  </div>
+        
   </section>
   <section id="working">
 
     <div class="Work">
       <p>
-        A finance expense tracker is a powerful tool designed to help individuals and businesses keep track 
-        of their financial transactions and expenses. With the rapid advancement of technology, expense trackers 
-        have become increasingly sophisticated, providing real-time data and comprehensive reports for better 
-        financial management. These trackers allow users to input their expenses, categorize them, and analyze 
-        spending patterns, enabling them to make informed decisions about their finances. By tracking expenses, 
-        individuals can gain a clear understanding of where their money is going, identify areas for potential 
-        cost savings, and create effective budgets. Furthermore, finance expense trackers often offer features 
+        A finance expense tracker is a powerful tool designed to help individuals and businesses keep track
+        of their financial transactions and expenses. With the rapid advancement of technology, expense trackers
+        have become increasingly sophisticated, providing real-time data and comprehensive reports for better
+        financial management. These trackers allow users to input their expenses, categorize them, and analyze
+        spending patterns, enabling them to make informed decisions about their finances. By tracking expenses,
+        individuals can gain a clear understanding of where their money is going, identify areas for potential
+        cost savings, and create effective budgets. Furthermore, finance expense trackers often offer features
         such as automatic expense syncing, receipt scanning, and integration with banking and credit card accounts,
-         making the process more efficient and convenient. Overall, a finance expense tracker is an invaluable 
-         tool for anyone seeking to maintain control over their financial health and achieve their monetary goals.
+        making the process more efficient and convenient. Overall, a finance expense tracker is an invaluable
+        tool for anyone seeking to maintain control over their financial health and achieve their monetary goals.
       </p>
-      </div>
+    </div>
+    <div class="image-gallery">
+      <h2>How To Use the Website!</h2>
+      <div id="image" >
+      <img src="delete.jpg" alt="Image 1">
+      <img src="edit1.jpg" alt="Image 2">
+      <img src="edit2.jpg" alt="Image 3">
+      <img src="get chart1.jpg" alt="Image 4">
+      <img src="get chart2.jpg" alt="Image 5">
+      <img src="quote.png" alt="Image 6">
+      </div>div>
+    </div>
   </section>
   <footer class="footer">
-    <p>&copy; 2023 Your Website. All rights reserved. </p>
+    <p>&copy; 2023 finTrack. All rights reserved. </p>
     <div class="social-icons">
       <a href="https://www.facebook.com/yourprofile"><img src="facebook.png" alt="Facebook"></a>
       <a href="https://www.twitter.com/yourprofile"><img src="twitter.png" alt="Twitter"></a>
@@ -122,8 +186,12 @@
       <a href="https://api.whatsapp.com/send?phone=123456789"><img src="whatsapp.png" alt="WhatsApp"></a>
     </div>
   </footer>
-   
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.2.2/dist/tesseract.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
+    // Get the transaction details
+
     // JavaScript code for slideshow (optional)
     var slideIndex = 0;
     showSlides();
@@ -144,4 +212,5 @@
   </script>
   <script src="p.js"></script>
 </body>
+
 </html>
