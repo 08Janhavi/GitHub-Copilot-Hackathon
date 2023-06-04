@@ -50,6 +50,40 @@ body {
   background-color: #111;
 }
 
+/* Dropdown Button */
+.dropdown .dropbtn {
+  font-weight: bold;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the Dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change the Link Color on Hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the Dropdown Menu on Hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 .logo {
   width: 150px;
   height: 50px;
@@ -288,6 +322,8 @@ input[type="number"] {
   color: black;
   padding: 20px;
   text-align: center;
+  width: 100%;
+  height: 100px;
 }
 
 .footer p {
@@ -337,7 +373,8 @@ input[type="number"] {
   color: #333333;
   font-size: 18px;
 }
-.spending-pattern a{
+
+.spending-pattern a {
   text-align-last: center;
   background-color: #1e6091;
   color: white;
@@ -349,16 +386,17 @@ input[type="number"] {
   border: 0;
   font-weight: 600;
   border-radius: 5px;
-  
 
-  
+
+
 }
-.image-gallery h2{
+
+.image-gallery h2 {
   margin-top: 40px;
   margin-left: 600px;
 }
 
-.image-gallery #image{
+.image-gallery #image {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -446,7 +484,7 @@ select {
   background-color: #d2d2d2;
 }
 
-.container2{
+.container2 {
   margin: auto;
   margin-top: 20px;
   width: 400px;
@@ -469,3 +507,94 @@ select {
 label {
   display: block;
 }
+
+.highlight {
+  border: 2px solid #ff0000;
+  /* Red border */
+  box-shadow: 0 0 5px #ff0000;
+  /* Red shadow */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  /* Smooth transition */
+}
+
+
+/* Default styles */
+
+/* ... Existing CSS code ... */
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+
+  .container {
+    width: 90%;
+  }
+
+  .transaction {
+    overflow-y: auto;
+  }
+
+  .image-gallery h2 {
+    margin-top: 40px;
+    margin-left: 400px;
+  }
+
+  .image-gallery img {
+    width: 200px;
+    height: auto;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for screens smaller than 480px */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar li {
+    margin-left: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .ledger {
+    padding: 10px;
+  }
+
+  .transaction {
+    padding: 10px;
+    overflow-y: auto;
+  }
+
+  .spending-pattern {
+    height: 500px;
+  }
+
+
+  .image-gallery img {
+    width: 150px;
+  }
+
+  .footer {
+    padding: 5px;
+    width: 648px;
+    height: 138px;
+  }
+
+
+
+}
+
+/* Add more media queries as needed for other screen sizes */
