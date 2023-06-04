@@ -310,6 +310,10 @@ input[type="number"] {
   margin-top: 20px;
 }
 
+.Work h2 {
+  margin-bottom: 10px;
+}
+
 .Work p {
   font-size: 16px;
   line-height: 1.5;
@@ -386,9 +390,6 @@ input[type="number"] {
   border: 0;
   font-weight: 600;
   border-radius: 5px;
-
-
-
 }
 
 .image-gallery h2 {
@@ -404,9 +405,14 @@ input[type="number"] {
 }
 
 .image-gallery img {
-  width: 300px;
+  width: 500px;
   height: auto;
   margin: 10px;
+  transition: transform 2s;
+}
+
+.image-gallery img:hover{
+  transform: scale(2);
 }
 
 button[type="submit"] {
