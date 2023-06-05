@@ -1,3 +1,5 @@
+Website link:https://08janhavi.github.io/GitHub-Copilot-Hackathon/public/p
+
 # Fintrack
 
 FinTrack, a finance expense tracker is a powerful tool designed to help individuals and businesses keep track of their financial transactions and expenses. These trackers allow users to input their expenses, categorize them, and analyze spending patterns, enabling them to make informed decisions about their finances. Furthermore, finance expense trackers often offer features such as automatic expense syncing, receipt scanning, and integration with banking and credit card accounts, making the process more efficient and convenient. Overall, a finance expense tracker is an invaluable tool for anyone seeking to maintain control over their financial health and achieve their monetary goals.
