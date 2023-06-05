@@ -425,6 +425,9 @@ button[type="submit"] {
   cursor: pointer;
 }
 
+#image img {
+  border: 2px solid black;
+}
 
 input[type="text"],
 select {
