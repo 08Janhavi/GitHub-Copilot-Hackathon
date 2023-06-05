@@ -415,6 +415,10 @@ input[type="number"] {
   transform: scale(2);
 }
 
+#image img {
+  border: 2px solid black;
+}
+
 button[type="submit"] {
   /* margin-top: 42px; */
   height: 40px;
