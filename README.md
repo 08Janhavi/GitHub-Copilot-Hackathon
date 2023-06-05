@@ -43,12 +43,10 @@ The Finance Tracker is a straightforward online tool meant to assist users in ma
 
 
 ## Screenshots
+![IMG-20230605-WA0015](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/12fab400-d0c8-4575-848f-d2834a4f012e)
+![IMG-20230605-WA0016](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/d7901f55-7447-4a9e-a05c-3760ad71b93a)
+![IMG-20230605-WA0017](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/b01f7c7a-65d7-4bc4-98e8-e6a5bb536562)
+![IMG-20230605-WA0018](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/9f14bfc7-c39b-46b4-9322-c021f77d6894)
 
-![IMG-20230605-WA0015](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/9f318d51-9260-4944-be8d-12f2d621efdd)
-![IMG-20230605-WA0016](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/dd9bee38-e789-4f82-99a4-6c54ae9a464a)
-![IMG-20230605-WA0017](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/eb2e6ec7-247a-446b-b548-a3a933dac732)
-![IMG-20230605-WA0018](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/fbf63d28-6443-48eb-af89-b788360f803f)
-
-- GitHub Copilot helped accelerate the coding process by providing su![Uploading IMG-20230605-WA0017.jpg…]()
-ggested code completions based on the existing patterns. It generated code snippets that are syntactically correct and aligned with common coding practices. This saved time by reducing the need to write every line of code manually.
+- GitHub Copilot helped accelerate the coding process by providing suggested code completions based on the existing patterns. It generated code snippets that are syntactically correct and aligned with common coding practices. This saved time by reducing the need to write every line of code manually.
 - Copilot assisted in handling complex logic by suggesting code patterns or algorithms. It was useful in the instance of the removeTrans method, which entails validating the deletion and filtering the transactions array based on the ID. Copilot has offered suggestions on how to structure and implement this logic.
