@@ -44,10 +44,11 @@ The Finance Tracker is a straightforward online tool meant to assist users in ma
 
 ## Screenshots
 
-![App Screenshot](https://drive.google.com/file/d/19HGtOSPWv2pUX8c9XtgdQoMyY12FMTH0/view?usp=sharing)
-![App Screenshot](https://drive.google.com/file/d/178wxZP7wdzIoaA17BbWZiyWEO1WuLqLO/view?usp=sharing)
-![App Screenshot](https://drive.google.com/file/d/1-dnVcJ_eNi8Q4omQcJeKuxgvn9CY4-8u/view?usp=sharing)
-![App Screenshot](https://drive.google.com/file/d/1tjSUkCd5Hur62hPdjBeWRZqoKoxK2yii/view?usp=sharing)
+![IMG-20230605-WA0015](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/9f318d51-9260-4944-be8d-12f2d621efdd)
+![IMG-20230605-WA0016](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/dd9bee38-e789-4f82-99a4-6c54ae9a464a)
+![IMG-20230605-WA0017](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/eb2e6ec7-247a-446b-b548-a3a933dac732)
+![IMG-20230605-WA0018](https://github.com/08Janhavi/GitHub-Copilot-Hackathon/assets/116000404/fbf63d28-6443-48eb-af89-b788360f803f)
 
-- GitHub Copilot helped accelerate the coding process by providing suggested code completions based on the existing patterns. It generated code snippets that are syntactically correct and aligned with common coding practices. This saved time by reducing the need to write every line of code manually.
+- GitHub Copilot helped accelerate the coding process by providing su![Uploading IMG-20230605-WA0017.jpg…]()
+ggested code completions based on the existing patterns. It generated code snippets that are syntactically correct and aligned with common coding practices. This saved time by reducing the need to write every line of code manually.
 - Copilot assisted in handling complex logic by suggesting code patterns or algorithms. It was useful in the instance of the removeTrans method, which entails validating the deletion and filtering the transactions array based on the ID. Copilot has offered suggestions on how to structure and implement this logic.
