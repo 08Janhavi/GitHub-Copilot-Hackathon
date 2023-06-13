@@ -133,9 +133,6 @@
 
       </div>
     </section>
-    <section>
-
-    </section>
     <section id="accIntegration">
 
       <div class="container2">
@@ -226,14 +223,10 @@
       slides[slideIndex - 1].style.display = "block";
       slides[slideIndex - 1].classList.add("active");
     }
-    function callTwoFunctions() {
-      startSlideshow();
-      functionTwo();
-    }
     function startSlideshow() {
       slideshowInterval = setInterval(function () {
         showSlides();
-      }, 2000); // Change slide every 2 seconds
+      }, 1500); // Change slide every 1.5 seconds
     }
 
     function stopSlideshow() {
