@@ -527,7 +527,11 @@ label {
   /* Smooth transition */
 }
 
-
+.slideshow-container img {
+  display: block;
+  width: 1000px;
+  height: 550px;
+}
 /* Default styles */
 
 /* ... Existing CSS code ... */
